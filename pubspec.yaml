@@ -1,0 +1,25 @@
+name: device_info_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # get information about your device
+  device_info: ^2.0.0
+  package_info: ^2.0.0
+
+  # get ip address
+  http: ^0.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
